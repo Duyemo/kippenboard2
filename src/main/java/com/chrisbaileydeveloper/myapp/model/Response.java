@@ -1,4 +1,4 @@
-package server.model;
+package myapp.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
