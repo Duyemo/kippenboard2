@@ -16,7 +16,7 @@ public class SigninController {
 	 */
 	@RequestMapping("/signin")
 	public ResponseEntity<Response> getEmail() {
-		return ResponseEntity.ok().body(new Response("test worked"));
+		return ResponseEntity.ok().body(new Response("testWorked"));
 	}
 	/*public String signin() {
 		logger.info("Showing sign in page");
