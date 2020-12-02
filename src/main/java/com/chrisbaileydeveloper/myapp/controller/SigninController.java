@@ -13,9 +13,12 @@ public class SigninController {
 	 * Sign in page.
 	 */
 	@RequestMapping("/signin")
-	public String signin() {
+	public ResponseEntity<Response> getEmail() {
+		return ResponseEntity.ok().body(new Response("test worked"));
+	}
+	/*public String signin() {
 		logger.info("Showing sign in page");
 		
 		return "signin/signin";
-	}
+	}*/
 }
